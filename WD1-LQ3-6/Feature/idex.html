@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenovo Legion - Feature Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="rsc/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+    <header class="flex justify-between items-center p-5 bg-black">
+        <h1 class="text-2xl font-bold text-green-500">Lenovo Legion</h1>
+        <nav>
+            <a href="index.html" class="mr-5 hover:text-green-500">Features</a>
+            <a href="specs.html" class="hover:text-green-500">Tech Specs</a>
+        </nav>
+    </header>
+
+    <section class="relative">
+        <img src="media/lenovo legion hero.webp" class="w-full h-96 object-cover" alt="Lenovo Legion Laptop">
+        <div class="absolute bottom-5 left-5 bg-black/60 p-4 rounded">
+            <h2 class="text-3xl font-bold text-green-500">Lenovo Legion</h2>
+            <p class="text-gray-200">Powerful gaming laptop for ultimate performance</p>
+        </div>
+    </section>
+
+    <section class="container mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold text-green-500 mb-8 text-center">Features</h2>
+        <div id="feature-carousel" class="relative" data-carousel="slide">
+
+            <div class="relative h-72 overflow-hidden rounded-lg">
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="media/display.avif" class="block w-full h-full object-cover" alt="Display">
+                    <div class="absolute bottom-5 left-5 bg-black/70 p-3 rounded">
+                        <h3 class="text-xl font-semibold text-green-500">Stunning Display</h3>
+                        <p class="text-gray-200">165Hz high-refresh panel for smooth gameplay.</p>
+                    </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="media/GPU.avif" class="block w-full h-full object-cover" alt="GPU">
+                    <div class="absolute bottom-5 left-5 bg-black/70 p-3 rounded">
+                        <h3 class="text-xl font-semibold text-green-500">Powerful Graphics</h3>
+                        <p class="text-gray-200">NVIDIA RTX GPU for ultra-realistic visuals.</p>
+                    </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="media/battery.webp" class="block w-full h-full object-cover" alt="Battery">
+                    <div class="absolute bottom-5 left-5 bg-black/70 p-3 rounded">
+                        <h3 class="text-xl font-semibold text-green-500">Long Battery Life</h3>
+                        <p class="text-gray-200">Up to 8 hours for gaming and productivity.</p>
+                    </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="media/performance.avif" class="block w-full h-full object-cover" alt="Performance">
+                    <div class="absolute bottom-5 left-5 bg-black/70 p-3 rounded">
+                        <h3 class="text-xl font-semibold text-green-500">Ultimate Performance</h3>
+                        <p class="text-gray-200">Intel Core i9 / Ryzen 9 with 32GB RAM.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="absolute top-1/2 left-5 -translate-y-1/2 bg-black/50 text-white rounded-full p-2" data-carousel-prev>&#10094;</button>
+            <button type="button" class="absolute top-1/2 right-5 -translate-y-1/2 bg-black/50 text-white rounded-full p-2" data-carousel-next>&#10095;</button>
+
+        </div>
+    </section>
+
+    <footer class="flex flex-col md:flex-row justify-center md:justify-between items-center p-6 bg-black text-center md:text-left gap-4 md:gap-0">
+        <p>© All rights reserved</p>
+        <img src="media/logo.png" class="h-10" alt="Lenovo Logo">
+        <p>Developed by Javillonar, Lester B.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+</body>
+
+</html>
